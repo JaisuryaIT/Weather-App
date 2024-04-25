@@ -40,7 +40,8 @@ This readme file provides a comprehensive guide to setting up and running your w
         
         **Important:** Replace placeholders with your actual database credentials(Changing APP_NAME in .env is optional and is reflected while using the app).
         
-        ![[env.png]]
+        ![env](https://github.com/JaisuryaIT/Weather-App/assets/142618443/6666f605-9d39-40f7-b217-5eefa15fa4c2)
+
         
 5. **Generate Application Key:**
     
@@ -64,12 +65,12 @@ This readme file provides a comprehensive guide to setting up and running your w
         MAIL_FROM_ADDRESS=your_email_address
         ```
         
-	- ![[env1.png]]
-    
-    - **Important:** Enable less secure app access in your Gmail settings for the email address you provide. Refer to the provided screenshots (maintain image placeholders) for guidance.
-    - ![[env2.png]]
+	- ![env1](https://github.com/JaisuryaIT/Weather-App/assets/142618443/8102e370-f143-491c-878d-0ba1ea82cab1)
 
-	- 	![[env3.png]]
+    - **Important:** Enable less secure app access in your Gmail settings for the email address you provide. Refer to the provided screenshots (maintain image placeholders) for guidance.
+    - ![env2](https://github.com/JaisuryaIT/Weather-App/assets/142618443/91d9f812-bb97-4f4c-a723-2c08db824972)
+   
+	- ![env3](https://github.com/JaisuryaIT/Weather-App/assets/142618443/7451b0d5-5703-429d-87e0-796dc66c837b)
 
         
 8. **Run the Application:**
@@ -84,4 +85,4 @@ This readme file provides a comprehensive guide to setting up and running your w
 - Log in to start using the weather app.
 
 
-**Any doubts or facing problems in installation, See this video [Video Link](https://docs.google.com/document/d/19W3WEY_M40n3E1hI9nnDG7NJ42vn-zNTp1Vqq33EPwg/edit?usp=drive_link)**
+**Any doubts or facing problems in installation, See this video [Video Link]([https://docs.google.com/document/d/19W3WEY_M40n3E1hI9nnDG7NJ42vn-zNTp1Vqq33EPwg/edit?usp=drive_link](https://drive.google.com/file/d/1yzrhMn7THB5zaAnPETCsQx0bX3bYA0hz/view?usp=drive_link))**
