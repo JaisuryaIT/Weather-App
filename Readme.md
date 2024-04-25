@@ -1,0 +1,87 @@
+**Weather App: Get Real-Time Weather Updates**
+
+This readme file provides a comprehensive guide to setting up and running your weather application. With this app, you'll have access to real-time weather information at your fingertips.
+
+**Prerequisites**
+
+- [Git]([https://git-scm.com/](https://git-scm.com/))
+- [Composer]([https://getcomposer.org/](https://getcomposer.org/))
+- [PHP]([https://www.php.net/](https://www.php.net/))
+
+**Installation**
+
+1. **Clone the Repository:**
+    
+    ```
+    git clone https://github.com/JaisuryaIT/Weather-App.git
+    ```
+	
+2. **Navigate to Project Directory:**
+    
+    ```
+    cd your_project_directory
+    ```
+    
+3. **Install Dependencies:**
+    
+    ```
+    composer install
+    ```
+    
+4. **Set Up Environment Configuration:**
+    
+    - Copy the `.env.example` file to `.env`: 
+        
+        ```
+        cp .env.example .env
+        ```
+    
+    - Update the following details in the `.env` file according to your database configuration:
+        
+        **Important:** Replace placeholders with your actual database credentials(Changing APP_NAME in .env is optional and is reflected while using the app).
+        
+        ![[Screenshot 2024-04-25 102108.png]]
+        
+5. **Generate Application Key:**
+    
+    ```
+    php artisan key:generate
+    ```
+    
+6. **Migrate the Database:**
+    
+    ```
+    php artisan migrate
+    ```
+    
+7. **Configure Email Settings (Optional):**
+    
+    - If you intend to use email functionalities within the app, update the following details in the `.env` file:
+        
+        ```
+        MAIL_USERNAME=your_email_address
+        MAIL_PASSWORD=your_email_password
+        MAIL_FROM_ADDRESS=your_email_address
+        ```
+        
+	- ![[Screenshot 2024-04-25 102453.png]]
+    
+    - **Important:** Enable less secure app access in your Gmail settings for the email address you provide. Refer to the provided screenshots (maintain image placeholders) for guidance.
+    - ![[Screenshot 2024-04-25 111434.png]]
+
+	- 	![[Screenshot 2024-04-25 111622.png]]
+
+        
+8. **Run the Application:**
+    
+    ```
+    php artisan serve
+    ```
+    
+**Accessing the Application**
+- Open http://127.0.0.1:8000 in your web browser.
+- Sign up for the first time to create database credentials.
+- Log in to start using the weather app.
+
+
+**Any doubts or facing problems in installation, See this video [Video Link](https://docs.google.com/document/d/19W3WEY_M40n3E1hI9nnDG7NJ42vn-zNTp1Vqq33EPwg/edit?usp=drive_link)**
