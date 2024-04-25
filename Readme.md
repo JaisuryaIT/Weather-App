@@ -40,7 +40,7 @@ This readme file provides a comprehensive guide to setting up and running your w
         
         **Important:** Replace placeholders with your actual database credentials(Changing APP_NAME in .env is optional and is reflected while using the app).
         
-        ![[Screenshot 2024-04-25 102108.png]]
+        ![[env.png]]
         
 5. **Generate Application Key:**
     
@@ -64,12 +64,12 @@ This readme file provides a comprehensive guide to setting up and running your w
         MAIL_FROM_ADDRESS=your_email_address
         ```
         
-	- ![[Screenshot 2024-04-25 102453.png]]
+	- ![[env1.png]]
     
     - **Important:** Enable less secure app access in your Gmail settings for the email address you provide. Refer to the provided screenshots (maintain image placeholders) for guidance.
-    - ![[Screenshot 2024-04-25 111434.png]]
+    - ![[env2.png]]
 
-	- 	![[Screenshot 2024-04-25 111622.png]]
+	- 	![[env3.png]]
 
         
 8. **Run the Application:**
