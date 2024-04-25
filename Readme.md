@@ -85,4 +85,4 @@ This readme file provides a comprehensive guide to setting up and running your w
 - Log in to start using the weather app.
 
 
-**Any doubts or facing problems in installation, See this video [Video Link]([https://docs.google.com/document/d/19W3WEY_M40n3E1hI9nnDG7NJ42vn-zNTp1Vqq33EPwg/edit?usp=drive_link](https://drive.google.com/file/d/1yzrhMn7THB5zaAnPETCsQx0bX3bYA0hz/view?usp=drive_link))**
+**See this video demo at https://drive.google.com/file/d/1yzrhMn7THB5zaAnPETCsQx0bX3bYA0hz/view?usp=drive_link**
