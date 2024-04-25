@@ -28,7 +28,7 @@ class WeatherController extends Controller
         $prompt .= "We encourage you to plan your day accordingly based on this forecast. Should you have any questions or require further assistance, please do not hesitate to contact us.\n\n";
         $prompt .= "Thank you for allowing us to serve you, and we wish you a pleasant and safe day ahead.\n\n";
         $prompt .= "Ensure that the provided weather data is accurately incorporated into the email from"." Jaisurya"." to".auth()->user()->name;
-        $prompt .= "Don't Give any subject, start with greeting and give it in a html convertable format like that it is attractive while seeing it on mail using all the details given above and also used for showing it in blade template of laravel";
+        $prompt .= "Don't Give any subject, start with greeting and give it in a format like that it is attractive while seeing it on mail using all the details given above and mention from detail - ".config('app.name')." on end with closing statement and to detail - ".auth()->user()->name." on greeting";
         $client = new Client(env('GEMINI_API_KEY'));
         $response = $client->geminiPro()->generateContent(new TextPart($prompt));
         $messageText = "";

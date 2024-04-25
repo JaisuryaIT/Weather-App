@@ -97,8 +97,8 @@
     <ul class="slides-container">
         <li><img src="{{ asset('img/slide_1.jpg') }}" alt=""></li>
         <li><img src="{{ asset('img/slide_2.jpg') }}" alt=""></li>
-        <li><img src="{{ asset('img/slide_3.jpg') }}" alt=""></li>
         <li><img src="{{ asset('img/slide_4.jpg') }}" alt=""></li>
+        <li><img src="{{ asset('img/slide_3.jpg') }}" alt=""></li>
     </ul>
 </div>
 @endpush
